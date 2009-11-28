@@ -167,7 +167,7 @@ This document describes MooseToMouse version 0.001.
 
 =head1 DESCRIPTION
 
-MooseToMouse is a tool to convert Moose librarises to Mouse ones, or vice versa.
+MooseToMouse is a tool to convert Moose libraries to Mouse ones, or vice versa.
 
 =head1 INTERFACE
 
