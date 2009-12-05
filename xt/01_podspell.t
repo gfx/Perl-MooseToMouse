@@ -16,5 +16,5 @@ __DATA__
 gfx
 Goro Fuji (gfx)
 gfuji(at)cpan.org
-MooseToMouse
+Any::Moose::Convert
 versa

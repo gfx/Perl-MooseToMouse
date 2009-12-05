@@ -1,4 +1,4 @@
-package MooseToMouse;
+package Any::Moose::Convert;
 
 use 5.008_001;
 use strict;
@@ -147,27 +147,27 @@ __END__
 
 =head1 NAME
 
-MooseToMouse - Convert Moose libraries to Moose ones, or vice versa
+Any::Moose::Convert - Convert Moose libraries to Mouse ones, or vice versa
 
 =head1 VERSION
 
-This document describes MooseToMouse version 0.001.
+This document describes Any::Moose::Convert version 0.001.
 
 =head1 SYNOPSIS
 
-	use MooseToMouse;
+	use Any::Moose::Convert;
 
 	moose2mouse qw(lib); # makes moose/lib/...
 	mouse2mouse qw(lib); # makes mouse/lib/...
 
 	# or as a command
 
-	$ perl -MMooseToMouse moose2mouse lib
-	$ perl -MMooseToMouse mouse2moose lib
+	$ perl -MAny::Moose::Convert moose2mouse lib
+	$ perl -MAny::Moose::Convert mouse2moose lib
 
 =head1 DESCRIPTION
 
-MooseToMouse is a tool to convert Moose libraries to Mouse ones, or vice versa.
+Any::Moose::Convert is a tool to convert Moose libraries to Mouse ones, or vice versa.
 
 =head1 INTERFACE
 

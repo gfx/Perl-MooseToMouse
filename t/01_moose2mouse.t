@@ -4,7 +4,7 @@ use strict;
 use Test::More;
 use FindBin qw($Bin);
 
-use MooseToMouse;
+use Any::Moose::Convert;
 
 use File::Path qw(rmtree);
 

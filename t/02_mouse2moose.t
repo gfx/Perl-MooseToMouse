@@ -6,7 +6,7 @@ use FindBin qw($Bin);
 
 use File::Path qw(rmtree);
 
-use MooseToMouse;
+use Any::Moose::Convert;
 
 chdir $Bin or die "Cannot chdir to $Bin: $!";
 

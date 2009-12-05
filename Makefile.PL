@@ -2,7 +2,7 @@ use strict;
 use warnings;
 use inc::Module::Install;
 
-all_from 'lib/MooseToMouse.pm';
+all_from 'lib/Any/Moose/Convert.pm';
 
 requires 'PerlIO::Util';
 
@@ -16,7 +16,8 @@ author_tests 'xt';
 auto_set_repository() if -d '.git';
 
 clean_files qw(
-    MooseToMouse-* *.stackdump
+    Any-Moose-Convert-*
+    *.stackdump
     cover_db
     nytprof
     *.out

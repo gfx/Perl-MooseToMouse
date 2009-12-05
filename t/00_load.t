@@ -3,6 +3,6 @@
 use strict;
 use Test::More tests => 1;
 
-BEGIN { use_ok 'MooseToMouse' }
+BEGIN { use_ok 'Any::Moose::Convert' }
 
-diag "Testing MooseToMouse/$MooseToMouse::VERSION";
+diag "Testing Any::Moose::Convert/$Any::Moose::Convert::VERSION";
