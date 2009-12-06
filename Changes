@@ -1,4 +1,7 @@
 Revision history for Perl extension Any::Moose::Convert
 
+0.002 Sun Dec  6 12:30:39 2009
+    - Don't touch the repository information (e.g. .git, .hg, etc)
+
 0.001 Sat Nov 28 07:41:31 2009
     - original version; created by Module::Setup
