@@ -1,5 +1,4 @@
 package Any::Moose::Convert;
-
 use 5.008_001;
 use strict;
 use warnings;
@@ -106,14 +105,14 @@ sub _do_moose2mouse_to_file {
     return;
 }
 
-
 my $cmop_utils = join '|', qw(
     is_class_loaded
     load_class
+    load_first_existing_class
     class_of
     get_metaclass_by_name
+    get_code_info
 );
-
 
 sub _convert_moose_to_mouse {
     local(*_) = @_;
