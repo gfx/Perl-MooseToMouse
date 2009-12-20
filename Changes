@@ -1,5 +1,8 @@
 Revision history for Perl extension Any::Moose::Convert
 
+0.003 Sun Dec 20 14:34:05 2009
+    - Improve detection of Class::MOP utilities
+
 0.002 Sun Dec  6 12:30:39 2009
     - Don't touch the repository information (e.g. .git, .hg, etc)
 

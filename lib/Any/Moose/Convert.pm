@@ -3,7 +3,7 @@ use 5.008_001;
 use strict;
 use warnings;
 
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 use base qw(Exporter);
 our @EXPORT = qw(moose2mouse mouse2moose);
@@ -153,7 +153,7 @@ Any::Moose::Convert - Convert Moose libraries to Mouse ones, or vice versa
 
 =head1 VERSION
 
-This document describes Any::Moose::Convert version 0.002.
+This document describes Any::Moose::Convert version 0.003.
 
 =head1 SYNOPSIS
 
