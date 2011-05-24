@@ -164,8 +164,9 @@ This document describes Any::Moose::Convert version 0.003.
 
 	# or as a command
 
-	$ perl -MAny::Moose::Convert moose2mouse lib
-	$ perl -MAny::Moose::Convert mouse2moose lib
+	$ perl -MAny::Moose::Convert -e 'moose2mouse lib'
+	$ perl -MAny::Moose::Convert -e 'mouse2moose lib'
+
 
 =head1 DESCRIPTION
 
